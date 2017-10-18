@@ -168,7 +168,64 @@
                 position: relative;
                 top: 10px;
             }
-        
+            
+            #page-container{
+                width: 1010px;
+                margin: 0 auto;
+            }
+            
+            h2{
+                font-weight: normal;
+                margin-top: 40px;
+                font-size: 20px;
+                border-bottom: 2px solid #A91717;
+                width: 105px;
+            }
+            
+            h3 a{
+                color: black;
+                font-size: 30px;
+                text-decoration: none;
+            }
+            
+            h3 a:hover{
+                color: #1167A8;
+            }
+            
+            #article-summary{
+                color: #5A5A5A;
+                width: 240px;
+                float: left;
+            }
+            
+            #article-summary img{
+                height: 14px;
+            }
+            
+            #article-summary a{
+                text-decoration: none;
+                color: #A91717;
+                border-left: 1px solid #CCCCCC;
+                padding-left: 10px;
+            }
+            
+            #article-summary a:hover{
+                color: #1167A8;
+            }
+            
+            #date{
+                padding-right: 10px;
+            }
+            
+            #article-container{
+                float: left;
+                width: 670px;
+            }
+            
+            #main-article-image{
+                width: 400px;
+                margin-left: 20px;
+            }
         
         </style>
     </head>
@@ -203,7 +260,7 @@
                 <img id="more-arrow" src="images/more-arrow.png" />
             </div>
             <div class="topbar-section">
-                <input id="search-box" type="text" value="Search" />
+                <input id="search-box" type="text" placeholder="Search" />
                 <input type="image" id="magnifying-glass" src="images/magnifying-glass.png" />
             </div>
         </div>
@@ -232,6 +289,21 @@
                     <a href="">Video & Audio</a>
                     <a href="" class="no-border">More</a>
                     <img src="images/more-arrow.png" id="menu-bar-2-arrow" />
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="page-container">
+            <div id="main-article">
+                <h2>Technology</h2>
+                <div id="article-container">
+                    <h3><a href="">Asda bug exposed payment details</a></h3>
+                    <div id="article-summary">
+                        <p>Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years, a security expert has revealed.</p>
+                        <p><img src="images/clock.png" /> <span id="date">18 October 2017</span><a href="">Technology</a>
+                        </p>
+                    </div>
+                    <img id="main-article-image" src="images/main-article-image.png" />
                 </div>
             </div>
         </div>
